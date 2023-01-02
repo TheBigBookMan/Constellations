@@ -1,3 +1,7 @@
+import Header from "./assets/components/common/header/Header";
+import Home from "./assets/pages/Home";
+import Signs from "./assets/pages/Signs";
+
 // ? find a constellation API for information etc
 
 //? Probably use react spring and animejs
@@ -13,7 +17,7 @@
 function App() {
   return (
     <div>
-      <h1>Constellations</h1>
+      <Header />
     </div>
   );
 }

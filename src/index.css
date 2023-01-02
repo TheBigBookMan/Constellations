@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Elianto";
+  src: url("./fonts/Elianto-Regular.otf");
+}
