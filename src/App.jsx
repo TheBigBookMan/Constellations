@@ -1,6 +1,7 @@
 import Header from "./assets/components/common/header/Header";
 import Home from "./assets/pages/Home";
 import Signs from "./assets/pages/Signs";
+import Galaxies from "./assets/pages/Galaxies";
 
 // ? find a constellation API for information etc
 
@@ -18,6 +19,9 @@ function App() {
   return (
     <div>
       <Header />
+      <Home />
+      <Signs />
+      <Galaxies />
     </div>
   );
 }
