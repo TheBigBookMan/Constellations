@@ -4,23 +4,23 @@ import { HashLink as Link } from "react-router-hash-link";
 
 const Nav = () => {
   return (
-    <ul className="flex gap-5 items-center">
-      <li>
+    <ul className="flex gap-3 items-center">
+      <li className="font-elianto">
         <Link smooth to="#home">
-          Home
+          HOME
         </Link>
       </li>
-      <li>
+      <li className="font-elianto">
         <Link smooth to="#signs">
-          Signs
+          SIGNS
         </Link>
       </li>
-      <li>
+      <li className="font-elianto">
         <Link smooth to="#galaxies">
-          Galaxies
+          GALAXIES
         </Link>
       </li>
-      <li className="hidden md:flex border p-3 rounded-lg bg-gray-900 text-zinc-50 cursor-pointer hover:bg-gray-700 transition-all">
+      <li className="font-elianto hidden md:flex border p-3 rounded-lg bg-gray-900 text-zinc-50 cursor-pointer hover:bg-gray-700 transition-all">
         Start your journey
       </li>
     </ul>
