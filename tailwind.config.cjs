@@ -6,6 +6,9 @@ module.exports = {
       fontFamily: {
         elianto: ["Elianto", "sans-serif"],
       },
+      backgroundImage: {
+        Space: "url('/src/images/Space.jpg')",
+      },
     },
   },
   plugins: [],
