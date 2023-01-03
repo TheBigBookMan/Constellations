@@ -17,7 +17,7 @@ import Galaxies from "./assets/pages/Galaxies";
 
 function App() {
   return (
-    <div>
+    <div className="relative z-2">
       <Header />
       <Home />
       <Signs />

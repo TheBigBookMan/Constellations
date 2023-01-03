@@ -21,7 +21,7 @@ const Nav = () => {
         </Link>
       </li>
       <li className="font-elianto hidden md:flex border p-3 rounded-lg bg-gray-900 text-zinc-50 cursor-pointer hover:bg-gray-700 transition-all">
-        Start your journey
+        START YOUR JOURNEY
       </li>
     </ul>
   );
